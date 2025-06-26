@@ -1,0 +1,27 @@
+name: Update ReaPack Index
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'  # Detect tags like v1.0.0
+  workflow_dispatch:
+
+jobs:
+  update_index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - name: Update index.xml
+        run: python update_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.xml
+          git commit -m "chore: update index.xml" || echo "no changes"
+          git push 
