@@ -1,19 +1,13 @@
-<index version="1">
-  <package>
-    <name>enz_ReaperTools</name>
-    <type>extension</type>
-    <version>1.0.0</version>
-    <author>signorzhao</author>
-    <description>REAPER 扩展插件，示例描述。</description>
-    <provides>
-      <file>releases/v1.0.0/reaper_enz_ReaperTools.dll</file>
-    </provides>
-    <download_url>https://github.com/signorzhao/reapack_repo/raw/main/releases/v1.0.0/reaper_enz_ReaperTools.dll</download_url>
-    <hash>sha256:请手动填写</hash>
-    <changelog>
-      <entry version="1.0.0" date="2024-06-XX">
-        初始发布
-      </entry>
-    </changelog>
-  </package>
-</index> 
+<?xml version="1.0" ?>
+<reapack version="1">
+  <category name="MyPlugin">
+    <reapack name="reaper_enz_ReaperTools.dll" version="1.0.0" type="extension">
+      <description>My REAPER C++ Extension Plugin</description>
+      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dll"/>
+      <compatibility>
+        <os>windows</os>
+        <arch>x64</arch>
+      </compatibility>
+    </reapack>
+  </category>
+</reapack>
