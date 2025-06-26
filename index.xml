@@ -1,37 +1,18 @@
 <?xml version="1.0" ?>
-<reapack version="1">
-  <category name="MyPlugin">
-    <reapack name="reaper_enz_ReaperTools.dll" version="1.0.0" type="extension">
-      <description>My REAPER C++ Extension Plugin</description>
-      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dll"/>
-      <compatibility>
-        <os>windows</os>
-        <arch>x64</arch>
-      </compatibility>
-    </reapack>
-    <reapack name="reaper_enz_ReaperTools.dylib" version="1.0.0" type="extension">
-      <description>My REAPER C++ Extension Plugin</description>
-      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dylib"/>
-      <compatibility>
-        <os>macos</os>
-        <arch>x64</arch>
-      </compatibility>
-    </reapack>
-    <reapack name="reaper_enz_ReaperTools.dll" version="1.0.8" type="extension">
-      <description>My REAPER C++ Extension Plugin</description>
-      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dll"/>
-      <compatibility>
-        <os>windows</os>
-        <arch>x64</arch>
-      </compatibility>
-    </reapack>
-    <reapack name="reaper_enz_ReaperTools.dylib" version="1.0.8" type="extension">
-      <description>My REAPER C++ Extension Plugin</description>
-      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dylib"/>
-      <compatibility>
-        <os>macos</os>
-        <arch>x64</arch>
-      </compatibility>
+<index version="1" name="ENZ ReaperTools" commit="main">
+  <category name="Extensions">
+    <reapack name="reaper_enz_ReaperTools.ext" type="extension" desc="ENZ ReaperTools">
+      <metadata>
+        <description>ENZ ReaperTools - REAPER C++ Extension Plugin</description>
+      </metadata>
+      <version name="1.0.0" author="ENZ" time="2025-06-27T07:37:51.041405Z">
+        <source platform="win64" file="reaper_enz_ReaperTools.dll">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dll</source>
+        <source platform="darwin" file="reaper_enz_ReaperTools.dylib">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dylib</source>
+      </version>
+      <version name="1.0.8" author="ENZ" time="2025-06-27T07:37:51.041425Z">
+        <source platform="win64" file="reaper_enz_ReaperTools.dll">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dll</source>
+        <source platform="darwin" file="reaper_enz_ReaperTools.dylib">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dylib</source>
+      </version>
     </reapack>
   </category>
-</reapack>
+</index>
