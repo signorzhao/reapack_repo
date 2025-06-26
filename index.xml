@@ -25,5 +25,21 @@
         <arch>x64</arch>
       </compatibility>
     </reapack>
+    <reapack name="reaper_enz_ReaperTools.dll" version="1.0.8" type="extension">
+      <description>My REAPER C++ Extension Plugin</description>
+      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dll"/>
+      <compatibility>
+        <os>windows</os>
+        <arch>x64</arch>
+      </compatibility>
+    </reapack>
+    <reapack name="reaper_enz_ReaperTools.dylib" version="1.0.8" type="extension">
+      <description>My REAPER C++ Extension Plugin</description>
+      <source file="https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.8/reaper_enz_ReaperTools.dylib"/>
+      <compatibility>
+        <os>macos</os>
+        <arch>x64</arch>
+      </compatibility>
+    </reapack>
   </category>
 </reapack>
