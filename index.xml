@@ -5,9 +5,13 @@
       <metadata>
         <description>ENZ ReaperTools - REAPER C++ Extension Plugin</description>
       </metadata>
-      <version name="1.0.0" author="ENZ" time="2025-06-27T00:12:41.582897Z">
+      <version name="1.0.0" author="ENZ" time="2025-06-27T00:58:48.445322Z">
         <source platform="win64" file="reaper_enz_ReaperTools.dll">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dll</source>
         <source platform="darwin" file="reaper_enz_ReaperTools.dylib">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.0/reaper_enz_ReaperTools.dylib</source>
+      </version>
+      <version name="1.0.1" author="ENZ" time="2025-06-27T00:58:48.445364Z">
+        <source platform="win64" file="reaper_enz_ReaperTools.dll">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.1/reaper_enz_ReaperTools.dll</source>
+        <source platform="darwin" file="reaper_enz_ReaperTools.dylib">https://raw.githubusercontent.com/signorzhao/reapack_repo/main/releases/v1.0.1/reaper_enz_ReaperTools.dylib</source>
       </version>
     </reapack>
   </category>
